@@ -19,6 +19,7 @@ try:
 # If keyboard Interrupt (CTRL-C) is pressed
 except KeyboardInterrupt:
     pass        # Go to next line
- 
+
 pwm.stop()      # Stop the PWM
 GPIO.cleanup()  # Make all the output pins LOW
+
